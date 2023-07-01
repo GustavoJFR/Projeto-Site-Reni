@@ -14,13 +14,13 @@ body{
   background-color: #152840;
 }
 
-
 #nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   height: 100px;
 }
+
 #nav .btn{
 
   color: white;
@@ -74,6 +74,7 @@ body{
   flex-direction: column;
   
 }
+
 .titulo{
   font-size: 5vw;
   color: white;
@@ -81,6 +82,7 @@ body{
   margin-bottom: 10%;
 
 }
+
 #imgprincipal{
   width: 40vw;
   border-radius: 25px;
