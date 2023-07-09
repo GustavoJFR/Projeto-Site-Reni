@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,41 +10,50 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="index.html" class="logomarca"><img src="Imagens/logo.png" alt=""></a>
-            </div>
-            <ul class="menu">
-                <li>
-                    <p>Space+</p>
-                </li>
-                <li><a href="https://google.com.br" class="home"><img src="Imagens/casa (3).png" alt=""></a></li>
-                <li><a href="#" class="search"><img src="Imagens/lupa.png" alt=""></a></li>
+    <header id="header">
+        <nav id="nav">
+            <a id="logo" href="index.html"><img src="Imagens/Logo.png" alt=""></a>
+            <ul id="menu">
+                <li id="home"><a href="index.html"><img src="Imagens/casa (3).png" alt=""></a></li>
+                <li id="search"><a href="explorar.html"><img src="Imagens/lupa.png" alt=""></a></li>
+                <li id="login"><a href="login.html"><img src="Imagens/do-utilizador (3).png" alt=""></a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="content">
-            <div class="container">
-                <h2>Login</h2>
-                <form>
-                    <label for="username">Usuário:</label>
-                    <input type="text" id="username" name="username" required>
-
-                    <label for="password">Senha:</label>
-                    <input type="password" id="password" name="password" required>
-
-                    <input type="submit" value="Entrar">
-                    <input type="button" value="Cadastrar">
-                </form>
-            </div>
+    <main class="mainlogin">
+        <div class="form">
+              <h2>Login</h2>
+              <form action="explorar.html" method="post" class="caixadelogin">
+                <input type="text" name="email" placeholder="E-mail" required>
+                <input type="password" name="password" placeholder="Senha" required>
+                <div class="botoes">
+                    <input type="submit" value="Entrar" class="entrar">
+                    <input type="submit" value="Cadastrar" class="cadastrar">
+                </div>
+                
+              </form>
         </div>
     </main>
     <footer>
+        <div class="footercontent">
+            <nav>
+                <img class="imgfooter" src="Imagens/Logo.png" alt="">
+                <ul>
+                    <li>Telefone: (35) 99945-8965</li>
+                    <li>Email: space+@gmail.com</li>
+                </ul>
+                <ul>
+                    <li>Projeto desenvolvido por:</li>
+                    <li>Gustavo Junio Ferreira Rodrigues</li>
+                    <li>Kauan Alexandre Dias</li>
+                    <li>Santiago Paiva Rosa Borges</li>
+                </ul>
+            </nav>
+        </div>
     </footer>
+    
+    <script src="script2.js"></script>
 
-    <script src="script.js"></script>
 </body>
 
 </html>
