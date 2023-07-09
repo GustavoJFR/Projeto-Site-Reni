@@ -201,7 +201,7 @@ form, .botoes{
   width: 100%;
 }
 .botoes input:hover{
-  background-color: #11D9B4;
+  background-color: lime;
 }
 
 .mainpage{
@@ -231,7 +231,6 @@ form, .botoes{
 }
 
 .image-container {
-  position: relative;
   display: inline-block;
 }
 
@@ -242,7 +241,6 @@ form, .botoes{
 }
 
 .image-container {
-  position: relative;
   display: inline-block;
 }
 
