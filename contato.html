@@ -8,6 +8,59 @@
     <link rel="stylesheet" href="visual.css">
     <link rel="icon" type="image/x-icon" href="Imagens/favicon.png">
     <title>Space+</title>
+    <style>
+        body{
+            background-image: url(Imagens/background2.jpg) ;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding-top: 350px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        main{
+            height: 520px;
+        }
+        main h1,label{
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -22,44 +75,13 @@
             </ul>
         </nav>
     </header>
-    <main class="mainpage">
-        <div class="row">
-            <div class="column">
-                <img src="Imagens/img01.jpg" >
-                <img src="Imagens/img02.jpg" >
-                <img src="Imagens/img03.jpg" >
-                <img src="Imagens/img04.jpg" >
-                <img src="Imagens/img31.jpg">
-            </div>
-            <div class="column">
-                <img src="Imagens/img05.jpeg">
-                <img src="Imagens/img07.jpg" >
-                <img src="Imagens/img08.jpg" >
-                <img src="Imagens/img09.jpg" >
-                <img src="Imagens/img21.webp">
-                <img src="Imagens/img22.webp">
-                <img src="Imagens/img27.webp">
-                <img src="Imagens/img28.jpg">
-            </div>
-            <div class="column">
-                <img src="Imagens/img10.jpeg">
-                <img src="Imagens/img11.jpg">
-                <img src="Imagens/img12.jpg">
-                <img src="Imagens/img13.jpg">
-                <img src="Imagens/img23.webp">
-                <img src="Imagens/img29.png">
-            </div>
-            <div class="column">
-                <img src="Imagens/img14.png">
-                <img src="Imagens/img15.jpg">
-                <img src="Imagens/img16.jpg">
-                <img src="Imagens/img17.jpg">
-                <img src="Imagens/img24.webp">
-                <img src="Imagens/img25.jpg">
-                <img src="Imagens/img26.jpg">
-                <img src="Imagens/img30.webp">
-            </div>
-        </div>
+    <main>
+        <h1>Entre em Contato</h1>
+        <form action="contato.html" method="post">
+            <label for="feedback">Deixe seu feedback:</label>
+            <textarea id="feedback" name="feedback" placeholder="Digite seu feedback e ajude a tornar a experiência melhor" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
     </main>
     <footer>
         <div class="footercontent">
@@ -78,7 +100,8 @@
             </nav>
         </div>
     </footer>
-    <script src="script.js"></script>
+    
+    <script src="script2.js"></script>
 
 </body>
 
